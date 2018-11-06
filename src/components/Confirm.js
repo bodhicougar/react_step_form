@@ -1,12 +1,7 @@
-import React, {
-  Component
-} from 'react';
+import React, { Component} from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
-import {
-  List,
-  ListItem
-} from 'material-ui/List';
+import { List, ListItem } from 'material-ui/List';
 import RaisedButton from 'material-ui/RaisedButton';
 
 export class FormUserDetails extends Component {
@@ -108,4 +103,4 @@ const styles = {
   }
 };
 
-export default Confirm;
+export default FormUserDetails;
